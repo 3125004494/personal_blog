@@ -19,7 +19,8 @@ svg { flex-shrink: 0; width: 20px; height: 20px; }
 .site-header { height: 96px; display: flex; justify-content: space-between; align-items: center; }
 .wordmark { font-size: 23px; letter-spacing: -.04em; font-weight: 700; span { color: $accent; margin-left: 3px; } }
 .site-header nav { display: flex; gap: 38px; align-items: center; a { display: inline-flex; align-items: center; gap: 5px; font-size: 15px; color: #465052; transition: color .2s; &:hover { color: $accent; } svg { width: 18px; height: 18px; } } }
-.hero { padding-block: 42px 52px; h1 { margin: 0 0 26px; font-size: clamp(54px, 5.3vw, 76px); font-weight: 700; line-height: 1.24; letter-spacing: -.045em; span { display: block; color: $accent; } } }
+.hero { padding-block: 42px 52px; h1 { margin: 0 0 16px; font-size: clamp(54px, 5.3vw, 76px); font-weight: 700; line-height: 1.24; letter-spacing: -.045em; white-space: nowrap; span { color: $accent; } } }
+.hero-email { margin: 0 0 22px; color: $accent; font-size: 19px; line-height: 1.6; a:hover { text-decoration: underline; text-underline-offset: 4px; } }
 .hero-description { color: $muted; font-size: 19px; line-height: 1.9; margin: 0 0 30px; }
 @keyframes intro-in { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
 .hero h1 { animation: intro-in .45s ease both; }
@@ -64,7 +65,9 @@ svg { flex-shrink: 0; width: 20px; height: 20px; }
   .site-header { height: 76px; }
   .wordmark { font-size: 21px; }
   .site-header nav { gap: 22px; a { font-size: 13px; } }
-  .hero { padding-block: 46px 54px; h1 { font-size: clamp(44px, 10.6vw, 60px); margin-bottom: 22px; } }
+  // 手机端缩小标题字号，保持整句同一行且不产生横向溢出。
+  .hero { padding-block: 46px 54px; h1 { font-size: clamp(28px, 7.8vw, 60px); margin-bottom: 16px; } }
+  .hero-email { font-size: 16px; }
   .hero-description { font-size: 15px; line-height: 1.95; margin-bottom: 26px; }
   .cta-btn { min-height: 44px; font-size: 13px; padding: 12px 17px; }
   .section-heading { padding-top: 29px; display: block; margin-bottom: 40px; h2 { font-size: 27px; } p { font-size: 12px; margin-top: 12px; line-height: 1.7; } }

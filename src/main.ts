@@ -18,7 +18,8 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   </header>
   <main id="home">
     <section class="hero container" aria-labelledby="hero-title">
-      <h1 id="hero-title">你好，我是<span>郑泽韩。</span></h1>
+      <h1 id="hero-title">你好，我是<span>郑泽韩</span></h1>
+      <p class="hero-email"><a href="mailto:1084635135@qq.com">1084635135@qq.com</a></p>
       <p class="hero-description">广东工业大学软件工程学生。<br />关注 AI 应用、Web 开发与数据实验。</p>
       <a class="cta-btn cta-btn--hero" href="#projects">浏览项目 ${arrow}</a>
     </section>
