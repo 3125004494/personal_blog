@@ -1,0 +1,351 @@
+{
+  "date": "2026-10-04",
+  "url": "http://127.0.0.1:4174/personal_blog/",
+  "browser": "isolated headless Edge via CDP",
+  "results": [
+    {
+      "viewport": "1440x900",
+      "width": 1440,
+      "scrollWidth": 1425,
+      "projects": 5,
+      "images": [
+        {
+          "loaded": true,
+          "alt": "广船知识应用的实际知识问答首页，展示场景导航与问题输入区"
+        },
+        {
+          "loaded": true,
+          "alt": "HAN 摄影作品集首页的真实桌面截图"
+        },
+        {
+          "loaded": true,
+          "alt": "AAPL 的真实价格与 LSTM 预测曲线，以及对应的情感特征图"
+        },
+        {
+          "loaded": true,
+          "alt": "概率统计试卷档案馆的真实网页界面，包含试卷目录与练习内容"
+        },
+        {
+          "loaded": true,
+          "alt": "英语练习系统的真实网页界面，使用隔离的演示题目和示例学生数据"
+        }
+      ],
+      "unpublished": 3,
+      "githubLinks": 2,
+      "firstProjectHeadingY": 779.328125,
+      "sectionHeadingY": 591.65625,
+      "overflow": [],
+      "reducedMotion": true,
+      "systemAccess": {
+        "href": "https://gcgj.ngsk.tech:7001/login",
+        "needsLogin": true,
+        "label": "openPangu 领域知识增强：访问系统（需登录）"
+      },
+      "publicDemoLoginVisible": true,
+      "renderedFonts": {
+        "fonts": [
+          {
+            "familyName": "Microsoft YaHei",
+            "postScriptName": "MicrosoftYaHei",
+            "isCustomFont": false,
+            "glyphCount": 34
+          }
+        ]
+      },
+      "dialogOpen": true,
+      "escapeCloseAndFocus": true,
+      "accessibility": {
+        "links": [
+          {
+            "href": "https://github.com/3125004494",
+            "secure": true
+          },
+          {
+            "href": "https://gcgj.ngsk.tech:7001/login",
+            "secure": true
+          },
+          {
+            "href": "https://photo-collection-2l3.pages.dev/",
+            "secure": true
+          },
+          {
+            "href": "https://github.com/3125004494/photo-collection",
+            "secure": true
+          },
+          {
+            "href": "https://github.com/3125004494/English-Practice-System",
+            "secure": true
+          },
+          {
+            "href": "https://github.com/3125004494",
+            "secure": true
+          },
+          {
+            "href": "https://github.com/cobiwave/simplefolio",
+            "secure": true
+          }
+        ],
+        "missingAlt": false,
+        "imageButtons": 5
+      }
+    },
+    {
+      "viewport": "768x1024",
+      "width": 768,
+      "scrollWidth": 753,
+      "projects": 5,
+      "images": [
+        {
+          "loaded": true,
+          "alt": "广船知识应用的实际知识问答首页，展示场景导航与问题输入区"
+        },
+        {
+          "loaded": true,
+          "alt": "HAN 摄影作品集首页的真实桌面截图"
+        },
+        {
+          "loaded": true,
+          "alt": "AAPL 的真实价格与 LSTM 预测曲线，以及对应的情感特征图"
+        },
+        {
+          "loaded": true,
+          "alt": "概率统计试卷档案馆的真实网页界面，包含试卷目录与练习内容"
+        },
+        {
+          "loaded": true,
+          "alt": "英语练习系统的真实网页界面，使用隔离的演示题目和示例学生数据"
+        }
+      ],
+      "unpublished": 3,
+      "githubLinks": 2,
+      "firstProjectHeadingY": 668.09375,
+      "sectionHeadingY": 537.09375,
+      "overflow": [],
+      "reducedMotion": true,
+      "systemAccess": {
+        "href": "https://gcgj.ngsk.tech:7001/login",
+        "needsLogin": true,
+        "label": "openPangu 领域知识增强：访问系统（需登录）"
+      },
+      "publicDemoLoginVisible": true,
+      "renderedFonts": {
+        "fonts": [
+          {
+            "familyName": "Microsoft YaHei",
+            "postScriptName": "MicrosoftYaHei",
+            "isCustomFont": false,
+            "glyphCount": 34
+          }
+        ]
+      },
+      "dialogOpen": true,
+      "escapeCloseAndFocus": true,
+      "accessibility": {
+        "links": [
+          {
+            "href": "https://github.com/3125004494",
+            "secure": true
+          },
+          {
+            "href": "https://gcgj.ngsk.tech:7001/login",
+            "secure": true
+          },
+          {
+            "href": "https://photo-collection-2l3.pages.dev/",
+            "secure": true
+          },
+          {
+            "href": "https://github.com/3125004494/photo-collection",
+            "secure": true
+          },
+          {
+            "href": "https://github.com/3125004494/English-Practice-System",
+            "secure": true
+          },
+          {
+            "href": "https://github.com/3125004494",
+            "secure": true
+          },
+          {
+            "href": "https://github.com/cobiwave/simplefolio",
+            "secure": true
+          }
+        ],
+        "missingAlt": false,
+        "imageButtons": 5
+      }
+    },
+    {
+      "viewport": "390x844",
+      "width": 390,
+      "scrollWidth": 390,
+      "projects": 5,
+      "images": [
+        {
+          "loaded": true,
+          "alt": "广船知识应用的实际知识问答首页，展示场景导航与问题输入区"
+        },
+        {
+          "loaded": true,
+          "alt": "HAN 摄影作品集首页的真实桌面截图"
+        },
+        {
+          "loaded": true,
+          "alt": "AAPL 的真实价格与 LSTM 预测曲线，以及对应的情感特征图"
+        },
+        {
+          "loaded": true,
+          "alt": "概率统计试卷档案馆的真实网页界面，包含试卷目录与练习内容"
+        },
+        {
+          "loaded": true,
+          "alt": "英语练习系统的真实网页界面，使用隔离的演示题目和示例学生数据"
+        }
+      ],
+      "unpublished": 3,
+      "githubLinks": 2,
+      "firstProjectHeadingY": 601.984375,
+      "sectionHeadingY": 467.59375,
+      "overflow": [],
+      "reducedMotion": true,
+      "systemAccess": {
+        "href": "https://gcgj.ngsk.tech:7001/login",
+        "needsLogin": true,
+        "label": "openPangu 领域知识增强：访问系统（需登录）"
+      },
+      "publicDemoLoginVisible": true,
+      "renderedFonts": {
+        "fonts": [
+          {
+            "familyName": "Microsoft YaHei",
+            "postScriptName": "MicrosoftYaHei",
+            "isCustomFont": false,
+            "glyphCount": 34
+          }
+        ]
+      },
+      "dialogOpen": true,
+      "escapeCloseAndFocus": true,
+      "accessibility": {
+        "links": [
+          {
+            "href": "https://github.com/3125004494",
+            "secure": true
+          },
+          {
+            "href": "https://gcgj.ngsk.tech:7001/login",
+            "secure": true
+          },
+          {
+            "href": "https://photo-collection-2l3.pages.dev/",
+            "secure": true
+          },
+          {
+            "href": "https://github.com/3125004494/photo-collection",
+            "secure": true
+          },
+          {
+            "href": "https://github.com/3125004494/English-Practice-System",
+            "secure": true
+          },
+          {
+            "href": "https://github.com/3125004494",
+            "secure": true
+          },
+          {
+            "href": "https://github.com/cobiwave/simplefolio",
+            "secure": true
+          }
+        ],
+        "missingAlt": false,
+        "imageButtons": 5
+      }
+    },
+    {
+      "viewport": "320x780",
+      "width": 320,
+      "scrollWidth": 320,
+      "projects": 5,
+      "images": [
+        {
+          "loaded": true,
+          "alt": "广船知识应用的实际知识问答首页，展示场景导航与问题输入区"
+        },
+        {
+          "loaded": true,
+          "alt": "HAN 摄影作品集首页的真实桌面截图"
+        },
+        {
+          "loaded": true,
+          "alt": "AAPL 的真实价格与 LSTM 预测曲线，以及对应的情感特征图"
+        },
+        {
+          "loaded": true,
+          "alt": "概率统计试卷档案馆的真实网页界面，包含试卷目录与练习内容"
+        },
+        {
+          "loaded": true,
+          "alt": "英语练习系统的真实网页界面，使用隔离的演示题目和示例学生数据"
+        }
+      ],
+      "unpublished": 3,
+      "githubLinks": 2,
+      "firstProjectHeadingY": 601.984375,
+      "sectionHeadingY": 467.59375,
+      "overflow": [],
+      "reducedMotion": true,
+      "systemAccess": {
+        "href": "https://gcgj.ngsk.tech:7001/login",
+        "needsLogin": true,
+        "label": "openPangu 领域知识增强：访问系统（需登录）"
+      },
+      "publicDemoLoginVisible": true,
+      "renderedFonts": {
+        "fonts": [
+          {
+            "familyName": "Microsoft YaHei",
+            "postScriptName": "MicrosoftYaHei",
+            "isCustomFont": false,
+            "glyphCount": 34
+          }
+        ]
+      },
+      "dialogOpen": true,
+      "escapeCloseAndFocus": true,
+      "accessibility": {
+        "links": [
+          {
+            "href": "https://github.com/3125004494",
+            "secure": true
+          },
+          {
+            "href": "https://gcgj.ngsk.tech:7001/login",
+            "secure": true
+          },
+          {
+            "href": "https://photo-collection-2l3.pages.dev/",
+            "secure": true
+          },
+          {
+            "href": "https://github.com/3125004494/photo-collection",
+            "secure": true
+          },
+          {
+            "href": "https://github.com/3125004494/English-Practice-System",
+            "secure": true
+          },
+          {
+            "href": "https://github.com/3125004494",
+            "secure": true
+          },
+          {
+            "href": "https://github.com/cobiwave/simplefolio",
+            "secure": true
+          }
+        ],
+        "missingAlt": false,
+        "imageButtons": 5
+      }
+    }
+  ]
+}
