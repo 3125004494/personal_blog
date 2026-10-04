@@ -43,3 +43,11 @@
 - 比较既有 `design/openpangu-desktop.png` 与新增登录信息后的 `output/browser/1440-project.png`、`390-project.png`、`320-project.png`，均经 `view_image` 查看。布局、配色、文字层级、完整图片、分隔与留白保持一致；仅新增用户要求的登录说明，首屏文案未改变，无待修复的视觉偏差。
 - Vite 固定 `/personal_blog/` base，所有动态成果图和弹窗使用同一 BASE_URL，已在相同子路径下完成四种视口、图片、系统入口、公开登录说明与弹窗检查。
 - Workflow 对照 Vite 官方指南，采用固定 Action commit，使用 pnpm 与锁文件。本地 QA 使用隔离 Edge CDP，因为没有内置 Browser/IAB；GitHub CLI 沿用现有认证，不复制令牌。
+
+## 线上验收
+- 仓库 `https://github.com/3125004494/personal_blog` 已创建为 public，`main` 已提交并推送；Pages Source 为 GitHub Actions。
+- 首次部署工作流 `37182193059` 成功，线上 `https://3125004494.github.io/personal_blog/` HTTP 200，并经用户浏览器 CDP 核实页面标题、五个项目、真实系统入口和首图加载。
+- 隔离 Edge CDP 对线上站点完成 1440×900、768×1024、390×844、320×780 检查：五图加载，无横向溢出，登录说明完整，弹窗打开、Esc 关闭及焦点恢复通过。最新结果见 `verification.json`。
+- 本轮用 `view_image` 再次查看线上桌面与手机实际渲染，与既有方案的布局、配色、文字层级、图片和留白一致；首屏文案未新增，唯一增加的登录说明已由用户明确确认。
+- 实际调用：Build Web Apps、web-access、Git / GitHub CLI、pnpm、浏览器 CDP、系统 Edge 与 GitHub Actions。未调用 Figma / Pencil / Canva，因为沿用现有设计；未调用 Cloudflare / Vercel，因为指定 GitHub Pages；未新增 Image Gen 或 Playwright 依赖。
+- 未测试远端模型问答或实体手机；只对作品集网页进行上线与浏览器验收。

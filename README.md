@@ -26,6 +26,7 @@ pnpm preview --port 4173 --strictPort
 
 - 仓库：<https://github.com/3125004494/personal_blog>
 - 站点：<https://3125004494.github.io/personal_blog/>
+- 2026-10-04 已发布，首次 [Actions 构建与部署](https://github.com/3125004494/personal_blog/actions/runs/37182193059) 成功；线上页面 HTTP 200，五个项目、四种视口、实际系统入口、公开登录说明、图片放大和 Esc 关闭均通过检查。
 - `main` 分支推送触发 `.github/workflows/pages.yml`，通过 pnpm 安装锁定依赖、类型检查和 Vite 构建，将 `dist/` 发布到 GitHub Pages。
 - 首次发布须将仓库 Settings → Pages → Source 设为 GitHub Actions；可通过已认证 GitHub CLI 的 Pages API 完成。本地 GitHub 凭据仅由系统 keyring / credential helper 使用，不提交到仓库。
 - Vite `base` 固定为 `/personal_blog/`，成果图使用 `import.meta.env.BASE_URL`，兼容 GitHub 仓库子路径。更换仓库名称时同步调整该配置。
@@ -51,7 +52,12 @@ pnpm preview --port 4173 --strictPort
 pnpm verify:browser
 ```
 
-可通过 `PORTFOLIO_URL` 指定不同预览端口或线上地址；浏览器测试不会提交远端问答。
+可通过 `PORTFOLIO_URL` 指定不同预览端口或线上地址；浏览器测试不会提交远端问答。线上检查示例：
+
+```powershell
+$env:PORTFOLIO_URL = 'https://3125004494.github.io/personal_blog/'
+pnpm verify:browser
+```
 
 截图与结果位于 `output/browser/`（不进入生产构建）。测试脚本默认查找 Windows 标准 Edge 安装路径；其他系统需调整该路径。
 
